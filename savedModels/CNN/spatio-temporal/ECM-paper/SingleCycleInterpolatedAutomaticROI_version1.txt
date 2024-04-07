@@ -1,0 +1,14 @@
+Model Directory = ./savedModels/CNN/spatio-temporal/ECM-paper/SingleCycleInterpolatedAutomaticROI_version1
+---------------------------------------
+Architecture_type = CNN
+Temporal Type = spatio-temporal
+Model Type = ECM-paper
+---------------------------------------
+Initial Learning Rate = 1e-05
+Loss Function = sparse_categorical_crossentropy
+Batch Normalization = False
+Dropout Rate = False
+---------------------------------------
+Convolution Layers = [2, 2, 2, 2, 1]
+Recurrent Layers = []
+Fully Connected Layers = []
